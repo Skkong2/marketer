@@ -64,7 +64,7 @@
     align-items: center;
     padding: 03px 32px;
     height: 151px;
-    border-bottom: 1px solid #acabab;;
+    border-bottom: 1px solid #9e9b9b;;
 
 
   }
@@ -82,5 +82,110 @@
       }
 
     }
+  }
+}
+
+//section amazing teams
+.amazing-team{
+  background: #ffffff;
+  .container{
+    padding: 90px 50px;
+
+  }
+  .text-features{
+    text-align: center;
+    h2{
+      font-size: 32px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+
+
+    }
+    p{
+      font-size: 16px;
+      color: #777777;
+      margin-bottom: 20px;
+      line-height: 1.5;
+
+
+    }
+  }
+  ul{
+    display: flex;
+    li{
+      width: 33.33%;
+      text-align: center;
+    }
+  }
+  .list-item{
+    text-align: center;
+    margin: 30px 0;
+    padding: 0 15px;
+    img{
+      border-radius: 50%;
+
+    }
+    h3{
+      font-size: 20px;
+      padding: 20px 0 10px;
+      text-transform: capitalize;
+
+    }
+    p{
+      font-size: 15px;
+      padding: 0 15px;
+      line-height: 1.6;
+      color: #777777;
+    }
+  }
+}
+
+//section. description
+
+section.description{
+  background: #f6f7f8;
+  height: 508px;
+
+  .container{
+    display: flex;
+    align-items: center;
+    padding: 90px 32px;
+    >div{
+      flex: 1;
+
+    }
+
+
+  }
+  .vidbox{
+
+
+  }
+ .descbox{
+    padding: 0 15px;
+   .desc{
+     border-bottom: 3px solid #000;
+   }
+
+  i{
+    font-size: 16px;
+
+
+  }
+  h2{
+    margin-left: 14px;
+    color: #656565;
+    font-size: 16px;
+
+
+  }
+   p{
+     color: #777777;
+     font-size: 15px;
+     padding: 14px 20px;
+
+   }
+
   }
 }

@@ -558,7 +558,7 @@ html, body {
     align-items: center;
     padding: 03px 32px;
     height: 151px;
-    border-bottom: 1px solid #acabab; }
+    border-bottom: 1px solid #9e9b9b; }
   .logos a img {
     display: flex;
     width: 154px;
@@ -568,5 +568,66 @@ html, body {
     transition: 0.4s; }
     .logos a img:hover {
       opacity: 1; }
+
+.amazing-team {
+  background: #ffffff; }
+  .amazing-team .container {
+    padding: 90px 50px; }
+  .amazing-team .text-features {
+    text-align: center; }
+    .amazing-team .text-features h2 {
+      font-size: 32px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      text-transform: capitalize; }
+    .amazing-team .text-features p {
+      font-size: 16px;
+      color: #777777;
+      margin-bottom: 20px;
+      line-height: 1.5; }
+  .amazing-team ul {
+    display: flex; }
+    .amazing-team ul li {
+      width: 33.33%;
+      text-align: center; }
+  .amazing-team .list-item {
+    text-align: center;
+    margin: 30px 0;
+    padding: 0 15px; }
+    .amazing-team .list-item img {
+      border-radius: 50%; }
+    .amazing-team .list-item h3 {
+      font-size: 20px;
+      padding: 20px 0 10px;
+      text-transform: capitalize; }
+    .amazing-team .list-item p {
+      font-size: 15px;
+      padding: 0 15px;
+      line-height: 1.6;
+      color: #777777; }
+
+section.description {
+  background: #f6f7f8;
+  height: 508px; }
+  section.description .container {
+    display: flex;
+    align-items: center;
+    padding: 90px 32px; }
+    section.description .container > div {
+      flex: 1; }
+  section.description .descbox {
+    padding: 0 15px; }
+    section.description .descbox .desc {
+      border-bottom: 3px solid #000; }
+    section.description .descbox i {
+      font-size: 16px; }
+    section.description .descbox h2 {
+      margin-left: 14px;
+      color: #656565;
+      font-size: 16px; }
+    section.description .descbox p {
+      color: #777777;
+      font-size: 15px;
+      padding: 14px 20px; }
 
 /*# sourceMappingURL=style.css.map */
