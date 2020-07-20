@@ -54,3 +54,33 @@
 
 
 }
+
+//section.logos
+.logos{
+  background-color: #f6f7f8;
+  .container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 03px 32px;
+    height: 151px;
+    border-bottom: 1px solid #acabab;;
+
+
+  }
+  a{
+    img{
+      display: flex;
+      width: 154px;
+      height: 70px;
+      margin: 10px 23px;
+      opacity: 0.4;
+      transition: .4s ;
+      &:hover{
+        opacity: 1;
+
+      }
+
+    }
+  }
+}
