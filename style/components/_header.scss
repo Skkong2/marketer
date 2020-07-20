@@ -1,3 +1,106 @@
 .header {
+  .top-header{
+  background-color: #343434;
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+
+  }
+  }
+  .top-sns-links {
+    display: flex;
+
+    a {
+      display: flex;
+      width: 40px;
+      height: 40px;
+      border-right: 1px solid #848383;
+      color: #dedede;
+      justify-content: center;
+      align-items: center;
+      transition: .4s;
+
+      &:hover {
+        &.twitter {
+          background: #4099ff;
+        }
+
+        &.pinterest {
+          background-color: #ff4640;
+        }
+
+        &.facebook {
+          background-color: #3b5998;
+        }
+
+        &.instagram {
+          background-color: #6dc993;
+        }
+
+        &.skype {
+          background-color: #00aff0;
+        }
+
+      }
+    }
+  }
+    .top-contacts{
+      display: flex;
+      >div {
+        margin-left: 25px;
+        color: #dedede;
+        display: flex;
+        align-items: center;
+        i{
+          font-size: 15px;
+          margin-right: 4px;
+          font-weight: 500;
+        }
+
+      }
+
+
+
+    }
+
+
+
+
+  .main-header{
+    background-color: #ffffff;
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+
+
+    }
+    .logo-area{
+      display: flex;
+      width: 171px;
+
+
+    }
+    nav{
+      display: flex;
+
+      .nav-link{
+        height: 75px;
+        display: flex;
+        padding: 20px 15px;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        i{
+          margin-left: 4px;
+        }
+
+
+      }
+    }
+  }
 }
