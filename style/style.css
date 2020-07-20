@@ -702,4 +702,43 @@ section.fun-facts {
       color: #dddddd;
       font-weight: 600; }
 
+section.amazing-features .container {
+  padding: 90px 0 50px; }
+section.amazing-features .features-textarea {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0 15px; }
+  section.amazing-features .features-textarea h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 15px; }
+  section.amazing-features .features-textarea p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777777;
+    margin: 0 0 15px; }
+section.amazing-features ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+  section.amazing-features ul li {
+    width: 33.33%;
+    padding: 0 15px; }
+  section.amazing-features ul .features-items {
+    text-align: center;
+    margin: 30px 0; }
+  section.amazing-features ul .features-desc {
+    text-align: center; }
+    section.amazing-features ul .features-desc h2 {
+      text-transform: capitalize;
+      font-size: 20px;
+      font-weight: 400;
+      margin: 20px 0 10px; }
+    section.amazing-features ul .features-desc p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #777777;
+      padding: 0 0 10px;
+      margin: 0 0 15px; }
+
 /*# sourceMappingURL=style.css.map */
