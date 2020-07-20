@@ -1,0 +1,56 @@
+//section visual
+.visual{
+
+  background-color: #3487db;
+
+  .container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    >div {
+      flex: 1;
+
+    }
+
+  }
+  .text-area{
+    h2{
+      font-size: 38px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+      color: #ffffff;
+
+    }
+    p{
+      max-width: 474px;
+      font-size: 18px;
+      font-weight: 300;
+      color: #ffffff;
+      line-height: 1.6;
+      margin-bottom: 30px;
+
+
+    }
+    a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 164px;
+      height: 54px;
+
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      border-radius: 5px;
+      text-transform: uppercase;
+      padding: 16px 35px;
+      font-size: 13px;
+
+
+
+
+    }
+  }
+
+
+}

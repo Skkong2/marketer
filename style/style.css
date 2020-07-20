@@ -516,4 +516,38 @@ html, body {
       .header .main-header nav .nav-link i {
         margin-left: 4px; }
 
+.visual {
+  background-color: #3487db; }
+  .visual .container {
+    height: 500px;
+    display: flex;
+    align-items: center; }
+    .visual .container > div {
+      flex: 1; }
+  .visual .text-area h2 {
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #ffffff; }
+  .visual .text-area p {
+    max-width: 474px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 30px; }
+  .visual .text-area a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 164px;
+    height: 54px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 16px 35px;
+    font-size: 13px; }
+
 /*# sourceMappingURL=style.css.map */
