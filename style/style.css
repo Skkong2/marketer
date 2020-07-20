@@ -675,4 +675,31 @@ section.project {
           color: #777777;
           font-style: italic; }
 
+section.fun-facts {
+  background-color: #333; }
+  section.fun-facts .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 32px 30px;
+    margin: 0 15px; }
+  section.fun-facts .icon {
+    padding: 0 15px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    height: 146px; }
+    section.fun-facts .icon i {
+      font-size: 40px;
+      color: #3498db; }
+    section.fun-facts .icon p {
+      font-size: 15px;
+      font-style: italic;
+      color: #bbbbbb;
+      line-height: 1.4; }
+    section.fun-facts .icon span {
+      font-size: 28px;
+      color: #dddddd;
+      font-weight: 600; }
+
 /*# sourceMappingURL=style.css.map */
