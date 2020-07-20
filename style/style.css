@@ -630,4 +630,49 @@ section.description {
       font-size: 15px;
       padding: 14px 20px; }
 
+section.project {
+  background: #393f43; }
+  section.project .container {
+    padding: 90px 32px;
+    height: 746px; }
+  section.project .project-text {
+    text-align: center;
+    padding: 0 15px; }
+    section.project .project-text h1 {
+      font-size: 32px;
+      font-weight: 500;
+      color: #dddddd;
+      margin-bottom: 16px;
+      text-transform: capitalize; }
+    section.project .project-text p {
+      font-size: 16px;
+      color: #bbb;
+      margin-bottom: 16px;
+      line-height: 1.5; }
+  section.project ul {
+    display: flex;
+    align-items: center;
+    padding: 16px; }
+    section.project ul li {
+      width: 33.33%;
+      padding: 0 15px; }
+    section.project ul .project-items {
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0px 2px 0px #bbbbbb; }
+      section.project ul .project-items .position {
+        background: #ffffff;
+        text-align: center;
+        padding: 1px 20px 12px; }
+        section.project ul .project-items .position h2 {
+          font-size: 18px;
+          text-transform: capitalize;
+          margin: 10px 0; }
+        section.project ul .project-items .position p {
+          font-size: 15px;
+          text-transform: capitalize;
+          margin-bottom: 5px;
+          color: #777777;
+          font-style: italic; }
+
 /*# sourceMappingURL=style.css.map */
