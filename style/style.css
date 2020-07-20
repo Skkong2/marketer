@@ -741,4 +741,93 @@ section.amazing-features ul {
       padding: 0 0 10px;
       margin: 0 0 15px; }
 
+section.testimonials {
+  background-color: #3498db; }
+  section.testimonials .container {
+    padding: 90px 32px; }
+  section.testimonials .happy-testimonials {
+    text-align: center;
+    padding: 0 15px;
+    text-transform: capitalize; }
+    section.testimonials .happy-testimonials h1 {
+      font-size: 32px;
+      font-weight: 500;
+      color: #ffffff;
+      margin: 0 0 15px; }
+    section.testimonials .happy-testimonials p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #ffffff;
+      margin: 0 0 15px; }
+  section.testimonials .clients-testimonials {
+    display: flex; }
+    section.testimonials .clients-testimonials .testimonials-box {
+      padding: 10px 15px 30px; }
+    section.testimonials .clients-testimonials .testimonial-texts {
+      background-color: #ffffff;
+      color: #777777;
+      padding: 30px;
+      border-radius: 5px; }
+      section.testimonials .clients-testimonials .testimonial-texts p {
+        font-size: 16px;
+        line-height: 1.7; }
+    section.testimonials .clients-testimonials .testimonial-clients img {
+      border-radius: 50%;
+      border: 5px solid #ffffff;
+      margin: 15px 15px 0 25px; }
+
+.latest-news {
+  background: #fff; }
+  .latest-news .container {
+    padding: 90px 0; }
+  .latest-news .news-area {
+    text-align: center;
+    padding: 0 15px; }
+    .latest-news .news-area h1 {
+      font-size: 32px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin: 0 0 15px; }
+    .latest-news .news-area p {
+      font-size: 16px;
+      color: #777777;
+      line-height: 1.5;
+      margin: 0 0 15px; }
+  .latest-news ul {
+    display: flex; }
+    .latest-news ul li {
+      width: 33.33%;
+      padding: 35px 15px 0; }
+  .latest-news .news-item {
+    border-radius: 5px;
+    overflow: hidden;
+    border-bottom: 2px solid #e0e0e0; }
+  .latest-news .new-desc {
+    padding: 1px 25px 20px;
+    background: #f6f7f8; }
+    .latest-news .new-desc > div {
+      display: inline-block; }
+      .latest-news .new-desc > div a {
+        margin: 0 10px 0 0;
+        padding: 0 10px 0 0; }
+    .latest-news .new-desc h1 {
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin: 15px 0 10px; }
+    .latest-news .new-desc .user a {
+      font-style: italic;
+      text-transform: capitalize;
+      color: #858585;
+      font-size: 14px; }
+    .latest-news .new-desc .icons a {
+      text-transform: capitalize;
+      color: #858585;
+      font-size: 14px; }
+    .latest-news .new-desc p {
+      color: #777;
+      font-size: 15px;
+      line-height: 1.6;
+      margin: 15px 0 20px; }
+
 /*# sourceMappingURL=style.css.map */
