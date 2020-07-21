@@ -508,3 +508,126 @@ section.testimonials {
     }
 
 }
+
+
+//section amazing team
+section.amazing-team {
+  background: #393f43 ;
+  .container{
+    padding: 90px 32px 50px;
+
+  }
+  .team-desc{
+    text-align: center;
+    h1{
+      font-size: 32px;
+      font-weight: 500;
+      margin: 0 0 15px;
+      color: #ffffff;
+      text-transform: capitalize;
+
+
+    }
+    p{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+      margin: 0 0 15px;
+      color: #bbbbbb;
+
+    }
+  }
+  ul {
+    display: flex;
+
+    li {
+      padding: 0 15px;
+      align-items: center;
+      width: 33.33%;
+
+    }
+  }
+
+  .team-members-list {
+    margin: 20px 0;
+    padding: 1px 30px 15px;
+    text-align: center;
+
+    }
+    img{
+      border-radius: 50% ;
+      border: 5px solid #eaeaea;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.4;
+        margin: 20px 0 1px;
+        color: #bbbbbb;
+        text-transform: uppercase;
+
+
+
+    }
+    .para{
+      font-size: 15px;
+      margin: 0 0 15px;
+      color: #cccccc;
+      font-style: italic;
+      text-transform: capitalize;
+
+    }
+  .members-desc {
+    p{
+      font-size: 15px;
+      margin: 0 0 15px;
+      color: #cccccc;
+      line-height: 1.5;
+
+
+    }
+  }
+
+  .team-sns{
+    >a{
+      color: #ffffff;
+      border-radius: 50%;
+      background-color: #6dc993;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      >i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+
+
+
+
+
+
+
+    //display: flex;
+    //a{
+    //  display: flex;
+    //  width: 34px;
+    //  height: 34px;
+    //  border-radius: 50%;
+    //  background: #134ebb;
+    //}
+    //i{
+    //  font-size: 18px;
+    //  text-align: center;
+    //  color: #ffffff;
+    //  display: flex;
+    //  align-items: center;
+    //  justify-content: center;
+
+
+    //}
+  }
+
+}
